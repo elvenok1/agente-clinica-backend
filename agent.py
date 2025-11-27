@@ -24,7 +24,7 @@ class Assistant(Agent):
 async def entrypoint(ctx: agents.JobContext):
     session = AgentSession(
         llm=openai.realtime.RealtimeModel(
-            api_key="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",
+            api_key="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",
             voice="coral"
         )
     )
