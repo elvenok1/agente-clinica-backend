@@ -25,7 +25,7 @@ async def entrypoint(ctx: agents.JobContext):
 
     session = AgentSession(
         llm=openai.realtime.RealtimeModel(
-            api_key="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",
+            api_key="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",
             voice="coral"
         )
     )
