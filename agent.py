@@ -12,7 +12,7 @@ from prompts import AGENT_INSTRUCTIONS
 import os
 from livekit.agents import BackgroundAudioPlayer, AudioConfig, BuiltinAudioClip
 
-load_dotenv(".env.local")
+load_dotenv(".env")
 
 
 class Assistant(Agent):
